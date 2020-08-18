@@ -1,0 +1,64 @@
+.section-padding{
+    padding: 32px 16px;
+}
+
+.border-box{
+    box-sizing: border-box;
+}
+
+.padding-16{
+    padding: 16px;
+}
+
+@media only screen and (max-width: 768px) {
+    .m-hidden{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .d-hidden{
+        display: none;
+    }
+
+    .d-display-flex{
+        display: flex;
+    }
+
+    .d-65{
+        width: 65%;
+    }
+
+    .d-60{
+        width: 60%;
+    }
+
+    .d-40{
+        width: 40%;
+    }
+
+    .d-35{
+        width: 35%;
+    }
+
+    .d-side-padding-24{
+        padding: 0 24px;
+    }
+
+    .d-vertically-centered{
+        display: flex;
+        align-items: center;
+    }
+
+    .section-padding{
+        padding: 16px 0;
+    }
+
+    .d-padding-right-24{
+        padding-right: 24px;
+    }
+
+    .d-margin-top-16{
+        margin-top: 16px;
+    }
+}

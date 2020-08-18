@@ -1,0 +1,338 @@
+/* Reset CSS */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Defaults */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: initial;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+h1, h2, h3{
+    font-weight: bold;
+    color: #414141;
+}
+
+h1{
+    font-size: 32px;
+}
+
+h2{
+    font-size: 28px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+button{
+    border: none;
+}
+
+
+/* Header */
+
+.main-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-link{
+    display: flex;
+    align-items: center;
+}
+
+.logo-text{
+    font-size: 20px;
+}
+
+.logo-primary{
+    font-weight: bold;
+}
+
+.logo-secondary{
+    color: #909090;
+}
+
+.nav-list{
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 64px;
+}
+
+@media only screen and (min-width: 768px) {
+    .main-nav{
+        padding: 0 24px;
+    }
+
+    .nav-list{
+        flex: none;
+    }
+
+    .nav-item{
+        padding-right: 16px;
+    }
+
+    .nav-item:last-child{
+        padding-right: 0;
+    }
+}
+
+
+/* banner */
+
+body .banner-section{
+    background-color: #d3d3d3;
+    padding: 0;
+}
+
+.banner-title{
+    margin-bottom: 24px;
+}
+
+.banner-button{
+    margin-top: 24px;
+    background-color: #909090;
+    color: #ffffff;
+    width: 100%;
+    padding: 8px;
+}
+
+@media only screen and (min-width: 768px) {
+    body .banner-section{
+        padding: 16px 0;
+    }
+
+    .banner-button{
+        background-color: #414141;
+    }
+}
+
+
+/* Articles */
+
+.main-article-title{
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+.main-article-body{
+    margin-bottom: 32px;
+}
+
+.article-body{
+    margin: 8px 0;
+}
+
+.article-link{
+    color: #3e83da;
+}
+
+@media only screen and (min-width: 768px) {
+    .article-card{
+        border: 1px solid #d3d3d3;
+    }
+
+    .article-card.featured{
+        background-color: #d3d3d3;
+    }
+
+    .article-card-inside{
+        padding: 16px;
+        display: flex;
+    }
+}
+
+
+/* Start Learning  */
+
+.start-learning-section{
+    border: 1px solid #e7e8e9;
+}
+
+.centered-title{
+    text-align: center;
+    margin: 0 0 32px 0;
+}
+
+.learning-card-list{
+    padding: 0;
+}
+
+.learning-card{
+    margin-top: 8px;
+}
+
+.learning-card:first-child{
+    margin-top: 0;
+}
+
+.learning-card a{
+    display: block;
+    background-color: #d3d3d3;
+    padding: 16px;
+}
+
+.learning-card-title{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.learning-card-subtitle{
+    margin: 8px 0;
+}
+
+@media only screen and (min-width: 768px) {
+    .start-learning-section{
+        border: 1px solid #e7e8e9;
+        background-color: #e7e8e9;
+    }
+
+    .centered-title{
+        text-align: center;
+        margin: 16px 0 32px 0;
+    }
+
+    .learning-card-list{
+        padding: 0 72px 16px 72px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .learning-card{
+        width: 33.3%;
+        margin-top: 0;
+    }
+
+    .learning-card a{
+        background-color: #fff;
+        padding: 0;
+    }
+
+    .first-of-3{
+        padding-right: 21.33px;
+    }
+
+    .middle-of-3{
+        padding: 0 10.66px;
+    }
+
+    .last-of-3{
+        padding-left: 21.33px;
+    }
+
+    .learning-card-text{
+        padding: 16px;
+        height: 120px;
+        overflow: scroll;
+    }
+}
+
+
+/* Thesis Exhibits */
+
+body .thesis-section{
+    padding: 32px 0 24px 0;
+}
+
+.thesis-video{
+    width: 100%;
+}
+
+.thesis-section .article-card{
+    border: none;
+}
+
+.thesis-section .main-article-body{
+    margin-bottom: 0px;
+}
+
+@media only screen and (min-width: 768px) {
+    .thesis-section .main-article-body{
+        margin-bottom: 8px;
+    }
+    
+}
+
+.horizontal-border{
+    height: 1px;
+    width: 98%;
+    background-color: #e7e8e9;
+    margin: 0 auto;
+}
+
+
+/* Footer */
+
+footer{
+    padding: 16px 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links{
+    display: flex;
+}
+
+.footer-links li{
+    margin-left: 16px;
+}
+

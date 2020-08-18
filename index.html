@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colmar Academy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="utils.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+        <nav class="main-nav">
+            <div class="m-hidden">
+                <a href="#" class="logo-link">
+                    <img src="assets/images/ic-logo.svg" alt="logo"/>
+                    <span class="logo-text">
+                        <span class="logo-primary">COLMAR</span><span class="logo-secondary">ACADEMY</span>
+                    </span>
+                </a>
+            </div>  
+            <ul class="nav-list">
+                <li class="nav-item d-hidden">
+                    <a href="#">
+                        <img src="assets/images/ic-logo.svg" alt="logo"/>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">
+                        <img src="assets/images/ic-on-campus.svg" class="d-hidden" alt="campus"/>
+                        <span class="m-hidden">On Campus</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">
+                        <img src="assets/images/ic-online.svg" class="d-hidden" alt="online"/>
+                        <span class="m-hidden">Online</span>
+                    </a>
+                </li>
+                <li class="nav-item m-hidden">
+                    <a href="#">
+                        For Companies
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">
+                        <img src="assets/images/ic-login.svg" class="d-hidden" alt="login"/>
+                        <span class="m-hidden">Sign in</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- BANNER -->
+
+    <section class="banner-section section-padding">
+        <div class="d-display-flex">
+            <div class="d-60 d-side-padding-24 banner-image-holder">
+                <img src="assets/images/banner.jpg" alt="banner-text"/>
+            </div>
+
+            <div class="d-40 d-vertically-centered section-padding banner-text d-padding-right-24 border-box">
+                <div>
+                    <h1 class="banner-title">Learn something new everyday</h1>
+                    <h3>Lorem ipsum dolor sit amet, consecteture adipiscing elit.</h3>
+                    <button class="banner-button">Start Here</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ARTICLES -->
+
+    <section class="section-padding">
+        <div class="d-display-flex">
+            <div class="d-60 d-side-padding-24 m-hidden">
+                <div class="main-article-image-holder">
+                    <img src="assets/images/information-main.jpg" alt="it does not hurt to keep practicing"/>
+                </div>
+                <h2 class="main-article-title">It doesn't hurto to keep practicing</h2>
+                <p class="main-article-body">
+                    "Curabitur vitae libero in ipsum torttitor consequat. Aliquam et commondo lectus, nec consequat neque. 
+                    Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, 
+                    tristique ligula."
+                </p>
+                <p>Emanuel, Sr Strategist at Hiring.com</p>
+            </div>
+
+            <ul class="articles-list d-40">
+                <li class="article-card">
+                    <article class="article-card-inside">
+                        <div class="d-35">
+                            <picture >
+                                <source media="(min-width:768px)" srcset="assets/images/information-orientation.jpg">
+                                <img src="assets/images/information-orientation-mobile.jpg" alt="orientation date">
+                            </picture>
+                        </div>
+                        <div class="d-65 padding-16 d-vertically-centered">
+                            <div>
+                                <h3>Orientation date</h3>
+                                <p class="article-body">Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                                <p><a href="#" class="article-link">Read more</a></p>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li class="article-card">
+                    <article class="article-card-inside">
+                        <div class="d-35">
+                            <picture >
+                                <source media="(min-width:768px)" srcset="assets/images/information-campus.jpg">
+                                <img src="assets/images/information-campus-mobile.jpg" alt="campus info">
+                            </picture>
+                        </div>
+                        <div class="d-65 padding-16 d-vertically-centered">
+                            <div>
+                                <h3>Our campus</h3>
+                                <p class="article-body">Find which campus is close by you</p>
+                                <p><a href="#" class="article-link">Read more</a></p>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li class="article-card featured">
+                    <article class="article-card-inside">
+                        <div class="d-35">
+                            <picture >
+                                <source media="(min-width:768px)" srcset="assets/images/information-guest-lecture.jpg">
+                                <img src="assets/images/information-guest-lecture-mobile.jpg" alt="guest lecture">
+                            </picture>
+                        </div>
+                        <div class="d-65 padding-16 d-vertically-centered">
+                            <div>
+                                <h3>Orientation date</h3>
+                                <p class="article-body">Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                                <p><a href="#" class="article-link">Read more</a></p>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- START LEARNING -->
+
+    <section class="section-padding start-learning-section">
+        <h2 class="centered-title">Start Learning</h2>
+        <ul class="learning-card-list">
+            <li class="learning-card first-of-3 border-box">
+                <a href="#">
+                    <img src="assets/images/course-software.jpg" alt="computer" class="m-hidden"/>
+                    <div class="learning-card-text border-box">
+                        <p class="learning-card-title">Software Engineering</p>
+                        <p class="learning-card-subtitle m-hidden">COURSES</p>
+                        <p class="m-hidden">Web Development, Mobile Development, iOT, APIs</p>
+                    </div>
+                </a>
+            </li>
+            <li class="learning-card middle-of-3 border-box">
+                <a href="#">
+                    <img src="assets/images/course-computer-art.jpg" alt="mobile" class="m-hidden"/>
+                    <div class="learning-card-text border-box">
+                        <p class="learning-card-title">Computer Art</p>
+                        <p class="learning-card-subtitle m-hidden">COURSES</p>
+                        <p class="m-hidden">Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
+                        </div>
+                </a>
+            </li>
+            <li class="learning-card last-of-3 border-box">
+                <a href="#">
+                    <img src="assets/images/course-design.jpg" alt="photography" class="m-hidden"/>
+                    <div class="learning-card-text border-box">
+                        <p class="learning-card-title">Design</p>
+                        <p class="learning-card-subtitle m-hidden">COURSES</p>
+                        <p class="m-hidden">User Experience Design, User Research, Visual Design</p>
+                    </div>
+                </a>
+            </li>
+            <li class="learning-card first-of-3 border-box d-margin-top-16">
+                <a href="#">
+                    <img src="assets/images/course-data.jpg" alt="data" class="m-hidden"/>
+                    <div class="learning-card-text border-box">
+                        <p class="learning-card-title">Software Engineering</p>
+                        <p class="learning-card-subtitle m-hidden">COURSES</p>
+                        <p class="m-hidden">Data Science, Big Data, SQL, Data Visualization</p>
+                    </div>
+                </a>
+            </li>
+            <li class="learning-card middle-of-3 border-box d-margin-top-16">
+                <a href="#">
+                    <img src="assets/images/course-business.jpg" alt="business" class="m-hidden"/>
+                    <div class="learning-card-text border-box">
+                        <p class="learning-card-title">Computer Art</p>
+                        <p class="learning-card-subtitle m-hidden">COURSES</p>
+                        <p class="m-hidden">Product Development, Business Development, Startup</p>
+                        </div>
+                </a>
+            </li>
+            <li class="learning-card last-of-3 border-box d-margin-top-16">
+                <a href="#">
+                    <img src="assets/images/course-marketing.jpg" alt="marketing" class="m-hidden"/>
+                    <div class="learning-card-text border-box">
+                        <p class="learning-card-title">Design</p>
+                        <p class="learning-card-subtitle m-hidden">COURSES</p>
+                        <p class="m-hidden">Analytics, Content Marketing, Mobile Marketing</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    <!-- THESIS EXHIBITS -->
+
+    <section class="section-padding thesis-section">
+        <h2 class="centered-title">Thesis Exhibits</h2>
+        <div class="d-display-flex">
+            <div class="d-60 d-side-padding-24">
+                <div class="main-article-image-holder">
+                    <video controls muted class="thesis-video">
+                        <source src="/assets/videos/thesis.mp4" type="video/mp4">
+                        Your browser does not support video.
+                    </video>
+                </div>
+                <h2 class="main-article-title m-hidden">Reimagine urban</h2>
+                <p class="main-article-body m-hidden">
+                    "Curabitur vitae libero in ipsum torttitor consequat. Aliquam et commondo lectus, nec consequat neque. 
+                    Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, 
+                    tristique ligula."
+                </p>
+            </div>
+
+            <ul class="d-40 m-hidden">
+                <li class="article-card featured">
+                    <a href="#">
+                        <article class="article-card-inside">
+                            <div class="d-35">
+                                <img src="assets/images/thesis-fisma.jpg" alt="campus info">
+                            </div>
+                            <div class="d-65 padding-16 d-vertically-centered">
+                                <div>
+                                    <h3>Fisma: Design and Prototype</h3>
+                                    <p class="article-body">Designer showcase of new prototype product</p>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                </li>
+                <li class="article-card">
+                    <a href="#">
+                        <article class="article-card-inside">
+                            <div class="d-35">
+                                <img src="assets/images/thesis-now-and-then.jpg" alt="guest lecture">
+                            </div>
+                            <div class="d-65 padding-16 d-vertically-centered">
+                                <div>
+                                    <h3>Now and then</h3>
+                                    <p class="article-body">Research study about New York</p>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <div class="horizontal-border m-hidden"></div>
+
+    <!-- FOOTER -->
+
+    <footer>
+        <p>© 2016 Colmar Academy. All rights reserved</p>
+        <ul class="m-hidden footer-links">
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Privacy</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
